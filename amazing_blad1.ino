@@ -23,7 +23,7 @@ void loop()
   if(digitalRead(BOT1) == LOW){
 	digitalWrite(IN1, HIGH);
 	digitalWrite(IN2, LOW);
-analogWrite(EN, 255);
+	analogWrite(EN, 255);
   }else if(digitalRead(BOT2) == LOW){
 	digitalWrite(IN1, LOW);
 	digitalWrite(IN2, HIGH);
